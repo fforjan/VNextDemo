@@ -1,6 +1,9 @@
 VNextDemo
 =========
 
+About
+-----
+
 This is a playground for ASP.Net VNext.
 
 The goal is to:
@@ -9,7 +12,12 @@ The goal is to:
 2. Implement a simple rest service (doing something stupid)
 3. Have some unit tests
 4. Deploy everything as :
+ - part of the same web application
+ - on a different set of web application
+ - self hosting into a desktop application
 
-- part of the same web application
-- on a different set of web application
-- self hosting into a desktop application
+
+Limitations found
+-----------------
+
+- Still need referencing nuget projects content sources
