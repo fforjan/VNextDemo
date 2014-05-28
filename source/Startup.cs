@@ -1,4 +1,6 @@
 using Microsoft.AspNet.Builder;
+using Microsoft.AspNet.FileSystems;
+using Microsoft.AspNet.StaticFiles;
 
 namespace KWebStartup
 {
@@ -6,8 +8,8 @@ namespace KWebStartup
     {
         public void Configure(IBuilder app)
         {
-            app.UseStaticFiles();
-            // app.UseWelcomePage();
+			// enables the rediretion of / to App folder
+            app.UseStaticFiles(new StaticFileOptions { FileSystem = new PhysicalFileSystem("./App") });
         }
     }
 }
