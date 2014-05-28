@@ -9,7 +9,8 @@ namespace KWebStartup
         public void Configure(IBuilder app)
         {
 			// enables the rediretion of / to App folder
-            app.UseStaticFiles(new StaticFileOptions { FileSystem = new PhysicalFileSystem("./App") });
-        }
+			app.UseStaticFiles(new StaticFileOptions { FileSystem = new PhysicalFileSystem("./App") });
+			app.BuildTypeScript();
+		}
     }
 }

@@ -4,7 +4,8 @@
     "Microsoft.AspNet.Diagnostics": "0.1-alpha-build-0623",
     "Microsoft.AspNet.Hosting": "0.1-alpha-build-0519",
     "Microsoft.AspNet.Server.WebListener": "0.1-alpha-build-0469",
-    "Microsoft.AspNet.StaticFiles": "0.1-alpha-build-0402"
+    "Microsoft.AspNet.StaticFiles": "0.1-alpha-build-0402",
+	"FForjan.TypeScriptMiddleware": "0.1-alpha-t140528133926"
   },
   "commands": {
     "web": "Microsoft.AspNet.Hosting server=Microsoft.AspNet.Server.WebListener server.urls=http://*:4242"
